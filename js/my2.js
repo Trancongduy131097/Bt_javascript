@@ -72,16 +72,16 @@
 // alert(user.surname);
 
 // -------------Tính tổng tiền lương của NV----------------- 
-// let salaries={
-//   John:100,
-//   Ann: 160,
-//   Pete:130
-// }
-// let tong=0;
-// for(let luong in salaries){
-//   tong=tong+ salaries[luong];
-// }
-// alert(tong);
+let salaries={
+  John:100,
+  Ann: 160,
+  Pete:130
+}
+let tong=0;
+for(let luong in salaries){
+  tong=tong+ salaries[luong];
+}
+alert(tong);
 
 // --------------Sử dụng hàm kiểm tra Typeof----------------------
 let menu ={
